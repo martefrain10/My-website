@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postcards</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="postcardsData.js" defer></script>
+    <script src="postcards.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Efrain Martinez</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="postcards.html">Postcards</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="postcards-page">
+        <h1 class="postcards-heading">Postcards</h1>
+
+        <div class="postcards-layout">
+            <section class="postcards-left" aria-label="Postcard viewer">
+                <div class="postcard-display">
+                    <div class="postcard-overline" id="postcard-number">Postcard 01</div>
+                    <div class="postcard-frame">
+                        <div class="postcard-art" id="postcard-art">
+                            <img id="postcard-image" class="postcard-image" src="postcards/IMG_0417.JPG" alt="Postcard artwork">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="postcards-actions">
+                    <button class="postcards-button" id="random-postcard-button" type="button">Random postcard</button>
+                    <span class="postcards-count" id="postcards-count">1 / 5</span>
+                </div>
+            </section>
+
+            <aside class="postcards-notes" aria-label="Postcard details">
+                <h2 id="details-title">Details</h2>
+                <p class="postcards-intro" id="details-intro">
+                    A 50-state diner postcard project, one small town at a time.
+                </p>
+
+                <div class="postcards-meta">
+                    <div class="postcards-meta-row">
+                        <span class="postcards-meta-label">State</span>
+                        <p class="postcards-meta-value" id="details-state">To be added</p>
+                    </div>
+                    <div class="postcards-meta-row">
+                        <span class="postcards-meta-label">Town</span>
+                        <p class="postcards-meta-value" id="details-town">Town to be added</p>
+                    </div>
+                    <div class="postcards-meta-row">
+                        <span class="postcards-meta-label">Diner</span>
+                        <p class="postcards-meta-value" id="details-diner">Tony's Ice Cream Bowl</p>
+                    </div>
+                    <div class="postcards-meta-row">
+                        <span class="postcards-meta-label">Medium</span>
+                        <p class="postcards-meta-value" id="details-medium">Illustrated postcard</p>
+                    </div>
+                </div>
+
+                <p class="postcards-story" id="details-story">
+                    This page now rotates through your real postcard images. As you pin down each town and state, you can keep adding details beside each card.
+                </p>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+</body>
+</html>
