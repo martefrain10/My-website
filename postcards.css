@@ -8,8 +8,11 @@
 .postcards-heading {
     font-size: 56px;
     line-height: 1;
-    margin: 8px 0 28px;
+    width: 100%;
+    max-width: 520px;
+    margin: 8px 0 0;
     font-weight: normal;
+    text-align: center;
 }
 
 .postcards-layout {
