@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const image = document.getElementById("postcard-image");
     const randomButton = document.getElementById("random-postcard-button");
     const elements = {
-        number: document.getElementById("postcard-number"),
         count: document.getElementById("postcards-count"),
         title: document.getElementById("details-title"),
         intro: document.getElementById("details-intro"),
@@ -26,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         art.setAttribute("data-status", card.status);
         image.src = card.image;
         image.alt = card.alt;
-        elements.number.textContent = `Postcard ${card.number}`;
         elements.count.textContent = `${index + 1} / ${postcardEntries.length}`;
         elements.title.textContent = card.diner;
         elements.intro.textContent = card.intro;
