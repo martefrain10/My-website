@@ -108,6 +108,7 @@ body {
 .postcards-actions {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
     width: 100%;
