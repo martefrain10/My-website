@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const art = document.getElementById("postcard-art");
     const image = document.getElementById("postcard-image");
+    const flipButton = document.getElementById("postcard-flip");
     const randomButton = document.getElementById("random-postcard-button");
     const elements = {
         count: document.getElementById("postcards-count"),
@@ -18,13 +19,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     let currentIndex = 0;
+    let showingBack = false;
+
+    function updatePostcardImage(card) {
+        image.src = showingBack ? card.backImage : card.frontImage;
+        image.alt = showingBack ? card.backAlt : card.frontAlt;
+        flipButton.setAttribute(
+            "aria-label",
+            showingBack ? "Show front of postcard" : "Show back of postcard"
+        );
+    }
 
     function renderPostcard(index) {
         const card = postcardEntries[index];
 
         art.setAttribute("data-status", card.status);
-        image.src = card.image;
-        image.alt = card.alt;
+        showingBack = false;
+        updatePostcardImage(card);
         elements.count.textContent = `${index + 1} / ${postcardEntries.length}`;
         elements.title.textContent = card.diner;
         elements.intro.textContent = card.intro;
@@ -50,6 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
         currentIndex = nextIndex;
         renderPostcard(currentIndex);
     }
+
+    flipButton.addEventListener("click", () => {
+        showingBack = !showingBack;
+        updatePostcardImage(postcardEntries[currentIndex]);
+    });
 
     randomButton.addEventListener("click", showRandomPostcard);
     renderPostcard(currentIndex);

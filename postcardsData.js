@@ -8,8 +8,10 @@ const postcardEntries = [
         status: "Added",
         intro: "A 50-state diner postcard project, one small town at a time.",
         story: "A neon-sign storefront rendered with a soft dusk palette. This card is now wired into the viewer with the original artwork image.",
-        image: "postcards/IMG_0417.JPG",
-        alt: "Illustrated postcard of Tony's Ice Cream Bowl"
+        frontImage: "postcards/IMG_0417.JPG",
+        backImage: "postcards/back-placeholder.svg",
+        frontAlt: "Illustrated postcard front of Tony's Ice Cream Bowl",
+        backAlt: "Back side placeholder for Tony's Ice Cream Bowl postcard"
     },
     {
         number: "02",
@@ -20,8 +22,10 @@ const postcardEntries = [
         status: "Added",
         intro: "A rotating wall of diner postcards from the road.",
         story: "This one leans into the evening lighting and the long shadows across the storefront, with the hand-drawn sign carrying the whole composition.",
-        image: "postcards/IMG_0438.JPG",
-        alt: "Illustrated postcard of The Udder Cow diner"
+        frontImage: "postcards/IMG_0438.JPG",
+        backImage: "postcards/back-placeholder.svg",
+        frontAlt: "Illustrated postcard front of The Udder Cow diner",
+        backAlt: "Back side placeholder for The Udder Cow postcard"
     },
     {
         number: "03",
@@ -32,8 +36,10 @@ const postcardEntries = [
         status: "Added",
         intro: "Every card has room for the image, the place, and a few notes.",
         story: "Palm shapes, a bright sky, and loose black lines give this postcard a totally different mood from the others while still feeling like part of the same series.",
-        image: "postcards/IMG_0440.JPG",
-        alt: "Illustrated postcard of Stacy's Restaurant"
+        frontImage: "postcards/IMG_0440.JPG",
+        backImage: "postcards/back-placeholder.svg",
+        frontAlt: "Illustrated postcard front of Stacy's Restaurant",
+        backAlt: "Back side placeholder for Stacy's Restaurant postcard"
     },
     {
         number: "04",
@@ -44,7 +50,9 @@ const postcardEntries = [
         status: "Added",
         intro: "The layout is built to spotlight both the postcard image and the notes beside it.",
         story: "This storefront feels quieter and more cinematic, with the building front and glowing windows doing most of the storytelling.",
-        image: "postcards/IMG_0482.JPG",
-        alt: "Illustrated postcard of El Corral Cafe"
+        frontImage: "postcards/IMG_0482.JPG",
+        backImage: "postcards/back-placeholder.svg",
+        frontAlt: "Illustrated postcard front of El Corral Cafe",
+        backAlt: "Back side placeholder for El Corral Cafe postcard"
     }
 ];
