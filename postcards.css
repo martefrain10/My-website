@@ -29,9 +29,18 @@ body {
     line-height: 1;
     width: 100%;
     max-width: 520px;
-    margin: 8px 0 0;
+    margin: 8px 0 -8px;
     font-weight: normal;
     text-align: center;
+}
+
+.postcards-flip-hint {
+    width: 100%;
+    max-width: 520px;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
 }
 
 .postcards-layout {
