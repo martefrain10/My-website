@@ -26,5 +26,61 @@ const postcardEntries = [
         backImage: "postcards/staceys_back.jpeg",
         frontAlt: "Front side of the Stacy's Restaurant postcard",
         backAlt: "Back side of the Stacy's Restaurant postcard"
+    },
+    {
+        number: "03",
+        state: "Tennessee",
+        town: "Brownsville",
+        diner: "Livingston's Soda Fountain & Grill",
+        medium: "Printed postcard",
+        status: "Added",
+        intro: "A 50-state diner postcard project, one small town at a time.",
+        story: "A postcard sent to Livingston's Soda Fountain & Grill in Brownsville, Tennessee. Click the image to flip between the front illustration and the handwritten back.",
+        frontImage: "postcards/livingstons_front.jpg",
+        backImage: "postcards/livingstons_back.jpg",
+        frontAlt: "Front side of the Livingston's Soda Fountain and Grill postcard",
+        backAlt: "Back side of the Livingston's Soda Fountain and Grill postcard"
+    },
+    {
+        number: "04",
+        state: "Alaska",
+        town: "Utqiagvik",
+        diner: "East Coast Pizzeria",
+        medium: "Printed postcard",
+        status: "Added",
+        intro: "A rotating wall of diner postcards from the road.",
+        story: "A postcard sent to East Coast Pizzeria in Utqiagvik, Alaska. Click the image to flip between the front illustration and the handwritten back.",
+        frontImage: "postcards/east_coast_pizzeria_front.jpg",
+        backImage: "postcards/east_coast_pizzeria_back.jpg",
+        frontAlt: "Front side of the East Coast Pizzeria postcard",
+        backAlt: "Back side of the East Coast Pizzeria postcard"
+    },
+    {
+        number: "05",
+        state: "Iowa",
+        town: "Pocahontas",
+        diner: "The Udder Cow",
+        medium: "Printed postcard",
+        status: "Added",
+        intro: "A 50-state diner postcard project, one small town at a time.",
+        story: "A postcard sent to The Udder Cow in Pocahontas, Iowa. Click the image to flip between the front illustration and the handwritten back.",
+        frontImage: "postcards/udder_cow_front.jpg",
+        backImage: "postcards/the_udder_cow_back.jpg",
+        frontAlt: "Front side of The Udder Cow postcard",
+        backAlt: "Back side of The Udder Cow postcard"
+    },
+    {
+        number: "06",
+        state: "Ohio",
+        town: "Zanesville",
+        diner: "Tom's Ice Cream Bowl",
+        medium: "Printed postcard",
+        status: "Added",
+        intro: "A rotating wall of diner postcards from the road.",
+        story: "A postcard sent to Tom's Ice Cream Bowl in Zanesville, Ohio. Click the image to flip between the front illustration and the handwritten back.",
+        frontImage: "postcards/toms_ice_cream_front.jpg",
+        backImage: "postcards/toms_ice_cream_back.jpg",
+        frontAlt: "Front side of the Tom's Ice Cream Bowl postcard",
+        backAlt: "Back side of the Tom's Ice Cream Bowl postcard"
     }
 ];
