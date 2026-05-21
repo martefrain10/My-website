@@ -24,6 +24,14 @@ body {
     padding: 24px clamp(20px, 5vw, 56px) 56px;
 }
 
+.postcards-project-intro {
+    max-width: 850px;
+    margin: 0 auto 36px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
 .postcards-heading {
     font-size: 56px;
     line-height: 1;
