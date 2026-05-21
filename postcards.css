@@ -144,10 +144,6 @@ body {
     outline-offset: 2px;
 }
 
-.postcards-count {
-    font-size: 14px;
-}
-
 .postcards-notes {
     background: transparent;
     border: 0;

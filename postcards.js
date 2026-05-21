@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const flipButton = document.getElementById("postcard-flip");
     const randomButton = document.getElementById("random-postcard-button");
     const elements = {
-        count: document.getElementById("postcards-count"),
         title: document.getElementById("details-title"),
         intro: document.getElementById("details-intro"),
         detailState: document.getElementById("details-state"),
@@ -36,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         art.setAttribute("data-status", card.status);
         showingBack = false;
         updatePostcardImage(card);
-        elements.count.textContent = `${index + 1} / ${postcardEntries.length}`;
         elements.title.textContent = card.diner;
         elements.intro.textContent = card.intro;
         elements.detailState.textContent = card.state;
