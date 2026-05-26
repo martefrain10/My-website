@@ -1,5 +1,19 @@
 const postcardEntries = [
     {
+        number: "06",
+        state: "Ohio",
+        town: "Zanesville",
+        diner: "Tom's Ice Cream Bowl",
+        medium: "Printed postcard",
+        status: "Added",
+        intro: "A rotating wall of diner postcards from the road.",
+        story: "A postcard sent to Tom's Ice Cream Bowl in Zanesville, Ohio. Click the image to flip between the front illustration and the handwritten back.",
+        frontImage: "postcards/toms_ice_cream_front.jpg",
+        backImage: "postcards/toms_ice_cream_back.jpg",
+        frontAlt: "Front side of the Tom's Ice Cream Bowl postcard",
+        backAlt: "Back side of the Tom's Ice Cream Bowl postcard"
+    },
+    {
         number: "01",
         state: "North Dakota",
         town: "Grace City",
@@ -68,19 +82,5 @@ const postcardEntries = [
         backImage: "postcards/the_udder_cow_back.jpg",
         frontAlt: "Front side of The Udder Cow postcard",
         backAlt: "Back side of The Udder Cow postcard"
-    },
-    {
-        number: "06",
-        state: "Ohio",
-        town: "Zanesville",
-        diner: "Tom's Ice Cream Bowl",
-        medium: "Printed postcard",
-        status: "Added",
-        intro: "A rotating wall of diner postcards from the road.",
-        story: "A postcard sent to Tom's Ice Cream Bowl in Zanesville, Ohio. Click the image to flip between the front illustration and the handwritten back.",
-        frontImage: "postcards/toms_ice_cream_front.jpg",
-        backImage: "postcards/toms_ice_cream_back.jpg",
-        frontAlt: "Front side of the Tom's Ice Cream Bowl postcard",
-        backAlt: "Back side of the Tom's Ice Cream Bowl postcard"
     }
 ];
