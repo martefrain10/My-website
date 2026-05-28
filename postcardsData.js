@@ -7,7 +7,7 @@ const postcardEntries = [
         medium: "Printed postcard",
         status: "Added",
         intro: "A rotating wall of diner postcards from the road.",
-        story: "A postcard sent to Tom's Ice Cream Bowl in Zanesville, Ohio. Click the image to flip between the front illustration and the handwritten back.",
+        story: "Zanesville is known for its Y Bridge, a three-way crossing where local directions can sound impossible: go to the middle of the bridge and turn left. The bridge has made the town recognizable from above for generations.",
         frontImage: "postcards/toms_ice_cream_front.jpg",
         backImage: "postcards/toms_ice_cream_back.jpg",
         frontAlt: "Front side of the Tom's Ice Cream Bowl postcard",

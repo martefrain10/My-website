@@ -5,11 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const randomButton = document.getElementById("random-postcard-button");
     const elements = {
         title: document.getElementById("details-title"),
-        intro: document.getElementById("details-intro"),
         detailState: document.getElementById("details-state"),
         detailTown: document.getElementById("details-town"),
-        detailDiner: document.getElementById("details-diner"),
-        detailMedium: document.getElementById("details-medium"),
         story: document.getElementById("details-story")
     };
 
@@ -36,11 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
         showingBack = false;
         updatePostcardImage(card);
         elements.title.textContent = card.diner;
-        elements.intro.textContent = card.intro;
         elements.detailState.textContent = card.state;
         elements.detailTown.textContent = card.town;
-        elements.detailDiner.textContent = card.diner;
-        elements.detailMedium.textContent = card.medium;
         elements.story.textContent = card.story;
     }
 
