@@ -168,6 +168,39 @@ body {
     margin: 0 0 8px;
 }
 
+.postcards-intro {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.postcards-meta {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.postcards-meta-row {
+    border-bottom: 0;
+    padding-bottom: 6px;
+}
+
+.postcards-meta-label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 4px;
+    color: #666;
+}
+
+.postcards-meta-value {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .postcards-story {
     font-size: 16px;
     line-height: 1.7;
